@@ -39,6 +39,11 @@ interface IndexColumnInterface extends ResourceInterface, TimestampableInterface
     public const FIELD_TYPE_STRING = 'STRING';
 
     /**
+     * Field Type String with Sase Sensitive for Index.
+     */
+    public const FIELD_TYPE_STRING_CASE_SENSITIVE = 'STRING_CASE_SENSITIVE';
+
+    /**
      * Field Type Text for Index.
      */
     public const FIELD_TYPE_TEXT = 'TEXT';

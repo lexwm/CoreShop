@@ -486,6 +486,11 @@ QUERY;
                 $doctrineType = 'decimal';
 
                 break;
+
+            case IndexColumnInterface::FIELD_TYPE_STRING_CASE_SENSITIVE:
+                $doctrineType = 'string';
+
+                break;
         }
 
         if (Type::hasType($doctrineType)) {

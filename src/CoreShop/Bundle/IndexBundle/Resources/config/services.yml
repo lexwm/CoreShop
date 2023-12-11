@@ -312,3 +312,7 @@ services:
     CoreShop\Component\Index\Extension\DecimalIndexColumnTypeConfigExtension:
         tags:
             - { name: coreshop.index.extension }
+
+    CoreShop\Component\Index\Extension\StringCaseSensitiveTypeConfigExtension:
+        tags:
+            - { name: coreshop.index.extension }
